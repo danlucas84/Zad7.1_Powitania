@@ -30,6 +30,18 @@ public class ReverseNameWelcome {
 
             System.out.println("Czesc " + names[i] + "." );
         }
+
+        Scanner input2 = new Scanner(System.in);
+
+        String names2[] = new String[5];
+
+        int i = 0;
+
+        while (i < names2.length) {
+
+            names2[i] = String.valueOf(input2.nextInt());
+            i++;
+        }
     }
 }
 
