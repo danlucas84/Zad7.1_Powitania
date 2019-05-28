@@ -1,5 +1,4 @@
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class ReverseNameWelcome {
@@ -34,15 +33,15 @@ public class ReverseNameWelcome {
         int i = 0;
         Scanner scan = new Scanner(System.in);
         System.out.println("podaj 5  imion");
+
         while (i < names2.length) {
             names2[i] = String.valueOf(scan.nextLine());
             //System.out.println("Czesc " + names2[i] + ".");
             i++;
         }
-        for (i = names2.length - 1; i >= 0; i--) {
+            for (i = names2.length - 1; i >= 0; i--) {
 
             System.out.println("Czesc " + names2[i] + ".");
-
 
         }
     }
